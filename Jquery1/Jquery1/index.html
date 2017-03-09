@@ -5,15 +5,21 @@
 	<meta charset="utf-8" />
     <script src="scripts/jquery-3.1.1.slim.js"></script>
     <script>
-        jQuery(document).ready(function () {
-            jQuery('#btn1').click(function () {
-                alert('OK jQuery');
-            });
-        });
-        
+        $(window).load(function () {
+            document.write("Width: " + $('#images1').width() + ". Height: " + $('#images1').height());
+        })
+        //$(document).ready(function () {
+        //    document.write("Width: " + $('#images1').width() + ". Height: " + $('#images1').height());
+        //})
     </script>
 </head>
 <body>
     <button id="btn1">Click here</button>  
+    <img id="images1" src="hồng nhung.jpg"  />
+    <script>
+        jQuery('#btn1').click(function () {
+            alert('OK jQuery');
+        });
+    </script>
 </body>
 </html>
