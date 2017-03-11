@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        .hailm{
+            background-color: aqua;
+        }
+    </style>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //alert($(' a').length);
+            //alert($('table').html());
+            //$('#table1').css('background-color', 'yellow');
+            //$('#table1 tr:even').css('background-color', 'green');
+            //$('#table1 td:odd').css('background-color', 'green');
+            $('table tr').each(function () {
+                $('#table1 td:odd').css('background-color', 'green');
+                if ($(this).find('td:odd').text() == 'C#')
+
+                    alert($(this).html());
+            });
+            alert($('ul li:first').html());
+            alert($('ul li: last').addClass('hailm'));
+           
+        })
+    </script>
+  
+</head>
+<body>
+    
+    <table id="table1" border="1">
+        <tr>
+            <td>C#</td>
+            <td>ASP.NET</td>
+            <td>SQL server</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>Selector 1</li>
+        <li>Selector 2</li>
+        <li>Selector 3</li>
+        <li>Selector 4</li>
+        <li>Selector 5</li>
+    </ul>
+    <div class="hailm">
+        Hailm
+    </div>
+    <div>
+        <a href="#">content</a>
+    </div>
+    <a href="#">conten1t</a>
+</body>
+</html>

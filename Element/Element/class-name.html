@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#first .small').css('border', '1px solid red');
+        });
+    </script>
+</head>
+<body>
+    <div id="first" class="big">
+        <span class="small">This is class selector</span>
+    </div>
+
+    <div class="small">
+        <p>This is class selector2</p>
+    </div>
+
+    <div class="small">
+        <div class="xsmall">This is class selector2</div>
+    </div>
+</body>
+</html>
