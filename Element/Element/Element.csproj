@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="attribute.html" />
     <Content Include="class-name.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
