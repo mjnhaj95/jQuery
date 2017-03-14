@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btnSubmit').on('click', function () {
+                var chkChecked = $('input[type="checkbox"]:checked');
+                if (chkChecked.length > 0) {
+                    $('#divResult').text(chkChecked.length + " checked checked");
+                    chkChecked.each(function () {
+                        $('#divResult').append($(this).val() + "<br/>");
+                    });
+                }
+                else {
+                    $('#divResult').text('No checked selected');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <label>
+        <input type="checkbox" value="C#" />C#
+    </label>
+    <label>
+        <input type="checkbox" value="Java" />Java
+    </label>
+    <label>
+        <input type="checkbox" value="PHP" />PHP
+    </label>
+    <label>
+        <input type="checkbox" value="C++" />C++
+    </label>
+    <br />
+    <br />
+    <input type="submit" id="btnSubmit" value="submit" />
+    <div id="divResult"></div>
+</body>
+</html>

@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="attribute.html" />
+    <Content Include="checkbox.html" />
+    <Content Include="checked-selector.html" />
     <Content Include="class-name.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
