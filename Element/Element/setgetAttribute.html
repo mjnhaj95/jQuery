@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btn1').click(function () {
+                $('#lbl1').text('Click here');
+            });
+
+            $('#btn2').click(function () {
+                alert($('#lbl1').text());
+            });
+
+            $('#btn3').click(function () {
+               ($('#lbl1').css('color', 'red'));
+            });
+
+            $('#btn4').click(function () {
+                ($('#lbl1').attr('style', 'color: yellow'));
+            });
+
+            $('#btn5').click(function () {
+                $('#txt1').val('123');
+                $('#lbl1').text($('#txt1').val());
+            });
+            $('#click1').click(function () {
+                $('#link1').attr('href', 'http://google.com');
+                alert($('#link1').attr('href'));
+            
+            });
+        });
+    </script>
+</head>
+<body>
+    <a href="#" id="link1">Link1</a>
+    <button id="click1">Click</button>
+   <label id="lbl1"></label>
+    <br/>
+    <input type="text" id="txt1" />
+    <button id="btn1">Click here</button>
+    <button id="btn2">Click here</button>
+    <button id="btn3">Change color</button>
+    <button id="btn4">Change color 1</button>
+    <button id="btn5">Change</button>
+</body>
+</html>
