@@ -35,6 +35,6 @@ D:\Documents\JS\jQuery\Element\Element\bin\Element.dll
 D:\Documents\JS\jQuery\Element\Element\bin\Element.pdb
 D:\Documents\JS\jQuery\Element\Element\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Documents\JS\jQuery\Element\Element\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Documents\JS\jQuery\Element\Element\obj\Debug\Element.csprojResolveAssemblyReference.cache
 D:\Documents\JS\jQuery\Element\Element\obj\Debug\Element.dll
 D:\Documents\JS\jQuery\Element\Element\obj\Debug\Element.pdb
+D:\Documents\JS\jQuery\Element\Element\obj\Debug\Element.csprojResolveAssemblyReference.cache
