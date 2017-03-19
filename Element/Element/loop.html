@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('li').each(function (index, element) {
+                alert('index: ' + index + ".element: " + $(element).text());
+                if($(this).text() ==  'China'){
+                     $(this).css('color', 'red');
+                }
+              
+            });
+            $('li').css('color', 'red')
+                    .slideUp(1000)
+                    .slideDown(1000)
+                    .attr('title', 'ok');
+        });
+    </script>
+</head>
+<body>
+    <ul>
+        <li>US</li>
+        <li>England</li>
+        <li>China</li>
+        <li>Russia</li>
+        <li>ThaiLand</li>
+        <li>VietNam</li>
+    </ul>
+    <br />
+    <div id="result"></div>
+</body>
+</html>

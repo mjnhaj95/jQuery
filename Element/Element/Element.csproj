@@ -70,6 +70,7 @@
     <Content Include="checkbox.html" />
     <Content Include="checked-selector.html" />
     <Content Include="class-name.html" />
+    <Content Include="loop.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
