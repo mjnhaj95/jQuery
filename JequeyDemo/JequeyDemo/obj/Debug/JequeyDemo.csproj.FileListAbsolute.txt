@@ -1,3 +1,4 @@
+D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\obj\Debug\JequeyDemo.csprojResolveAssemblyReference.cache
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\roslyn\csc.exe
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -15,6 +16,5 @@ D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\JequeyDemo.dll
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\JequeyDemo.pdb
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\obj\Debug\JequeyDemo.csprojResolveAssemblyReference.cache
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\obj\Debug\JequeyDemo.dll
 D:\Documents\JS\jQuery\JequeyDemo\JequeyDemo\obj\Debug\JequeyDemo.pdb

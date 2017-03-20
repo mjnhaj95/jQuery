@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // prepend thêm 1 nội dung đằng trước
+            $('div').prepend('<b>Programing </b>');
+
+            // append thêm 1 nôi dung đăng sau
+            $('div').append('<em> Tutorial</em>');
+
+            $('div').append($(' #spanExisred'));
+        });
+    </script>
+</head>
+<body>
+        <span id="spanExisred"> Course</span>
+        <div>Jquery</div>
+        <div>C#</div>
+        <div>PHP</div>
+    
+</body>
+</html>

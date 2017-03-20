@@ -19,11 +19,18 @@
                 "age": 16
             }
             ];
-            var result = '';
-           $.each($(employeeJson), function (i, item) {
-               result += "firstName: " + item.firstName + " .lastName: " + item.lastName;
-            });
-           $('#result').html(result);
+           // var result = '';
+           //$.each($(employeeJson), function (i, item) {
+           //    result += "firstName: " + item.firstName + " .lastName: " + item.lastName;
+           // });
+            //$('#result').html(result);
+
+            $('#result').html(JSON.stringify(employeeJson));
+
+            var content = $('#result').text();
+            var objJson = JSON.parse(content);
+            console.log(objJson);
+
         });
        
     </script>
