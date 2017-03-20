@@ -69,6 +69,7 @@
     <Content Include="classManipulate.html" />
     <Content Include="insertBeforeAfter.html" />
     <Content Include="json.html" />
+    <Content Include="map.html" />
     <Content Include="packages.config" />
     <Content Include="PrependAndAppend.html" />
     <Content Include="test.aspx" />
