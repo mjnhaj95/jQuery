@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="change_events.html" />
     <Content Include="classManipulate.html" />
     <Content Include="insertBeforeAfter.html" />
     <Content Include="json.html" />
